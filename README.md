@@ -234,24 +234,6 @@ npm run build
 
 Os arquivos otimizados estarão na pasta `dist/`.
 
-### Deploy em serviços populares
-
-**Vercel**:
-```bash
-npm install -g vercel
-vercel
-```
-
-**Netlify**:
-```bash
-npm install -g netlify-cli
-netlify deploy
-```
-
-**GitHub Pages / Outros**:
-- Faça upload da pasta `dist/` para o servidor
-- Configure o servidor para redirecionar todas as rotas para `index.html` (SPA routing)
-
 ## 📄 Licença
 
 MIT
